@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Авиатехника</title>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Самолеты</a></li>
+        <li><a href="#"><font size="5"><b>Авиатехника</b></font></a></li>
+        <li><a href="mediapage.html">Медиа</a></li>
+    </ul>
+
+    <details>
+        <summary>График</summary>
+        <form>
+            <table>
+                <tbody>
+                <tr>
+                    <th>
+                        Значение по оси OX
+                    </th>
+                    <th>
+                        Результат
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="ox" value="0" checked>
+                        Название
+                        <br>
+                        <input type="radio" name="ox" value="1">
+                        Тип
+                    </td>
+                    <td>
+                        <input type="checkbox" name="result" value="0">
+                        Максимальная скорость
+                        <br>
+                        <input type="checkbox" name="result" value="1">
+                        Максимальное число человек
+                        <br>
+                        <input type="checkbox" name="result" value="2">
+                        Максимальная дальность
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <button type="submit">Построить</button>
+            <p>Место для графика</p>
+        </form>
+    </details>
+
+    <details>
+        <summary>Фильтр</summary>
+        <form>
+            <p>
+                <label>
+                    Название:
+                    <input type="text">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Тип:
+                    <input type="text">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Скорость:
+                    <input type="text">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Дальность:
+                    <input type="text">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Пассажиры:
+                    <input type="text">
+                </label>
+            </p>
+            <button type="submit">Найти</button>
+        </form>
+    </details>
+
+    <details>
+        <summary>Сортировка</summary>
+        <form>
+            <label>
+                Первый уровень:
+                <select name="sort_first">
+                    <option value="0">Название</option>
+                    <option value="1">Дальность</option>
+                    <option value="2">Скорость</option>
+                    <option value="3">Вместимость</option>
+                </select>
+            </label>
+            по убыванию:
+            <input type="checkbox" name="sort_first_reversed">
+            <br>
+            <label>
+                Второй уровень:
+                <select name="sort_first">
+                    <option value="0">Название</option>
+                    <option value="1">Дальность</option>
+                    <option value="2">Скорость</option>
+                    <option value="3">Вместимость</option>
+                </select>
+            </label>
+            по убыванию:
+            <input type="checkbox" name="sort_first_reversed">
+        </form>
+    </details>
+
+    <br>
+
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Название</th>
+                <th>Тип</th>
+                <th>Скорость (км/ч)</th>
+                <th>Дальность (км)</th>
+                <th>Пассажиры (чел.)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="airplane_description.html">Dassault Falcon 10X</a></td>
+                <td>Дальнемагистральные</td>
+                <td>1 132</td>
+                <td>13 900</td>
+                <td>12-18</td>
+            </tr>
+            <tr>
+                <td><a href="airplane_description.html">Dassault Falcon 10X</a></td>
+                <td>Дальнемагистральные</td>
+                <td>1 132</td>
+                <td>13 900</td>
+                <td>12-18</td>
+            </tr>
+            <tr>
+                <td><a href="airplane_description.html">Dassault Falcon 10X</a></td>
+                <td>Дальнемагистральные</td>
+                <td>1 132</td>
+                <td>13 900</td>
+                <td>12-18</td>
+            </tr>
+            <tr>
+                <td><a href="airplane_description.html">Dassault Falcon 10X</a></td>
+                <td>Дальнемагистральные</td>
+                <td>1 132</td>
+                <td>13 900</td>
+                <td>12-18</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
